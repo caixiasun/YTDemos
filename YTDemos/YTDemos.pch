@@ -1,0 +1,21 @@
+//
+//  YTDemos.pch
+//  YTDemos
+//
+//  Created by caixiasun on 2017/5/17.
+//  Copyright © 2017年 com.yatou.test. All rights reserved.
+//
+
+#ifndef YTDemos_pch
+#define YTDemos_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+#import <iCarousel.h>
+
+#import "YTCore.h"
+
+
+#endif /* YTDemos_pch */
