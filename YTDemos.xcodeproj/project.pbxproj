@@ -13,12 +13,6 @@
 		008A8F801ECC52EE0039E0AF /* UIView+YTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F581ECC52EE0039E0AF /* UIView+YTFrame.m */; };
 		008A8F811ECC52EE0039E0AF /* YTCharacterConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F5E1ECC52EE0039E0AF /* YTCharacterConvertTool.m */; };
 		008A8F821ECC52EE0039E0AF /* YTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F601ECC52EE0039E0AF /* YTRegex.m */; };
-		008A8F831ECC52EE0039E0AF /* calendar_backward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008A8F641ECC52EE0039E0AF /* calendar_backward@2x.png */; };
-		008A8F841ECC52EE0039E0AF /* calendar_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008A8F651ECC52EE0039E0AF /* calendar_forward@2x.png */; };
-		008A8F851ECC52EE0039E0AF /* NSDate+YTDateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F671ECC52EE0039E0AF /* NSDate+YTDateCategory.m */; };
-		008A8F861ECC52EE0039E0AF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F681ECC52EE0039E0AF /* README.md */; };
-		008A8F871ECC52EE0039E0AF /* YTCalendarDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F6A1ECC52EE0039E0AF /* YTCalendarDay.m */; };
-		008A8F881ECC52EE0039E0AF /* YTCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F6C1ECC52EE0039E0AF /* YTCalendarView.m */; };
 		008A8F891ECC52EE0039E0AF /* TestFlowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F6F1ECC52EE0039E0AF /* TestFlowerView.m */; };
 		008A8F8A1ECC52EE0039E0AF /* TestHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F721ECC52EE0039E0AF /* TestHeartView.m */; };
 		008A8F8B1ECC52EE0039E0AF /* MyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F751ECC52EE0039E0AF /* MyPageControl.m */; };
@@ -76,15 +70,6 @@
 		008A8F5E1ECC52EE0039E0AF /* YTCharacterConvertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCharacterConvertTool.m; sourceTree = "<group>"; };
 		008A8F5F1ECC52EE0039E0AF /* YTRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTRegex.h; sourceTree = "<group>"; };
 		008A8F601ECC52EE0039E0AF /* YTRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTRegex.m; sourceTree = "<group>"; };
-		008A8F641ECC52EE0039E0AF /* calendar_backward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_backward@2x.png"; sourceTree = "<group>"; };
-		008A8F651ECC52EE0039E0AF /* calendar_forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_forward@2x.png"; sourceTree = "<group>"; };
-		008A8F661ECC52EE0039E0AF /* NSDate+YTDateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YTDateCategory.h"; sourceTree = "<group>"; };
-		008A8F671ECC52EE0039E0AF /* NSDate+YTDateCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YTDateCategory.m"; sourceTree = "<group>"; };
-		008A8F681ECC52EE0039E0AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		008A8F691ECC52EE0039E0AF /* YTCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCalendarDay.h; sourceTree = "<group>"; };
-		008A8F6A1ECC52EE0039E0AF /* YTCalendarDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCalendarDay.m; sourceTree = "<group>"; };
-		008A8F6B1ECC52EE0039E0AF /* YTCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCalendarView.h; sourceTree = "<group>"; };
-		008A8F6C1ECC52EE0039E0AF /* YTCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCalendarView.m; sourceTree = "<group>"; };
 		008A8F6E1ECC52EE0039E0AF /* TestFlowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlowerView.h; sourceTree = "<group>"; };
 		008A8F6F1ECC52EE0039E0AF /* TestFlowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFlowerView.m; sourceTree = "<group>"; };
 		008A8F711ECC52EE0039E0AF /* TestHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeartView.h; sourceTree = "<group>"; };
@@ -222,7 +207,6 @@
 		008A8F611ECC52EE0039E0AF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				008A8F621ECC52EE0039E0AF /* YTCalendar */,
 				008A8F6D1ECC52EE0039E0AF /* YTFlower */,
 				008A8F701ECC52EE0039E0AF /* YTHeartView */,
 				008A8F731ECC52EE0039E0AF /* YTPageCtrol */,
@@ -230,30 +214,6 @@
 				008A8F7C1ECC52EE0039E0AF /* 查看图片大图 */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		008A8F621ECC52EE0039E0AF /* YTCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				008A8F631ECC52EE0039E0AF /* images */,
-				008A8F661ECC52EE0039E0AF /* NSDate+YTDateCategory.h */,
-				008A8F671ECC52EE0039E0AF /* NSDate+YTDateCategory.m */,
-				008A8F681ECC52EE0039E0AF /* README.md */,
-				008A8F691ECC52EE0039E0AF /* YTCalendarDay.h */,
-				008A8F6A1ECC52EE0039E0AF /* YTCalendarDay.m */,
-				008A8F6B1ECC52EE0039E0AF /* YTCalendarView.h */,
-				008A8F6C1ECC52EE0039E0AF /* YTCalendarView.m */,
-			);
-			path = YTCalendar;
-			sourceTree = "<group>";
-		};
-		008A8F631ECC52EE0039E0AF /* images */ = {
-			isa = PBXGroup;
-			children = (
-				008A8F641ECC52EE0039E0AF /* calendar_backward@2x.png */,
-				008A8F651ECC52EE0039E0AF /* calendar_forward@2x.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		008A8F6D1ECC52EE0039E0AF /* YTFlower */ = {
@@ -585,8 +545,6 @@
 			files = (
 				00ED8FE31EA9FF5200CA6EBB /* LaunchScreen.storyboard in Resources */,
 				00B83D231ED6DA1D00E09A2C /* JSCallOC.html in Resources */,
-				008A8F831ECC52EE0039E0AF /* calendar_backward@2x.png in Resources */,
-				008A8F841ECC52EE0039E0AF /* calendar_forward@2x.png in Resources */,
 				00ED8FE01EA9FF5200CA6EBB /* Assets.xcassets in Resources */,
 				00ED8FDE1EA9FF5200CA6EBB /* Main.storyboard in Resources */,
 			);
@@ -666,7 +624,6 @@
 				00ED8FD81EA9FF5200CA6EBB /* AppDelegate.m in Sources */,
 				008A8F891ECC52EE0039E0AF /* TestFlowerView.m in Sources */,
 				008A8B5B1ECC4CC60039E0AF /* GoToSettingsController.m in Sources */,
-				008A8F861ECC52EE0039E0AF /* README.md in Sources */,
 				008A8F9B1ED2CC9E0039E0AF /* NSStringDemoController.m in Sources */,
 				00B83D271EDE7D2500E09A2C /* ICarouselDemoController.m in Sources */,
 				008A8F971ECE8D5D0039E0AF /* UIViewController+IMPViewDidLoaded.m in Sources */,
@@ -676,11 +633,8 @@
 				008A8F7F1ECC52EE0039E0AF /* UIImage+YTImage.m in Sources */,
 				008A8F821ECC52EE0039E0AF /* YTRegex.m in Sources */,
 				008A8F8C1ECC52EE0039E0AF /* YTProgressView.m in Sources */,
-				008A8F871ECC52EE0039E0AF /* YTCalendarDay.m in Sources */,
 				00ED8FD51EA9FF5200CA6EBB /* main.m in Sources */,
 				00C532E51EE508D900E2BB4F /* Student.m in Sources */,
-				008A8F851ECC52EE0039E0AF /* NSDate+YTDateCategory.m in Sources */,
-				008A8F881ECC52EE0039E0AF /* YTCalendarView.m in Sources */,
 				00B83D2C1EE01B7400E09A2C /* QYDemoController.m in Sources */,
 				008A8F801ECC52EE0039E0AF /* UIView+YTFrame.m in Sources */,
 				008A8F811ECC52EE0039E0AF /* YTCharacterConvertTool.m in Sources */,
