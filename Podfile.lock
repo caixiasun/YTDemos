@@ -3,6 +3,7 @@ PODS:
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - QIYU_iOS_SDK (3.0.0)
+  - WMPageController (2.1.5)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -12,6 +13,7 @@ DEPENDENCIES:
   - Masonry (~> 1.0.2)
   - MJExtension (~> 3.0.13)
   - QIYU_iOS_SDK (~> 3.0.0)
+  - WMPageController (~> 2.1.5)
   - YYKit
 
 SPEC CHECKSUMS:
@@ -19,8 +21,9 @@ SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   QIYU_iOS_SDK: d6fbbcee08694b61389a7dd5301c83b03cf7835c
+  WMPageController: e10e3ada7c3d8965fabf2716a04560a189d18f33
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 6d8e46be0a90dc33585deb83ad63d3f159145f27
+PODFILE CHECKSUM: e180427c6a71d0f9ba5ca4540079cd43a56d4f48
 
 COCOAPODS: 1.1.1

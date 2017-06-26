@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "MainController.h"
 #import <QYSDK.h>
+#import "MainController.h"
+#import "MyController.h"
 
 @interface AppDelegate ()
 
@@ -19,15 +21,42 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-       
+    
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[MainController new]];
+    self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     
     [[QYSDK sharedSDK] registerAppId:@"ccd9d036848a8d69a50c67f5a63f2d5c" appName:@"丫头Demos"];
     
     return YES;
+}
+- (UITabBarController *)tabBarController {
+    if (!_tabBarController) {
+        _tabBarController = [[UITabBarController alloc] init];
+        
+        NSMutableArray *viewControllers = [NSMutableArray new];
+        
+        {
+            MainController *vc = [[MainController alloc] init];
+            vc.title = @"首页";
+            UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+            [viewControllers addObject:navi];
+        }
+        {
+            MyController *vc = [[MyController alloc] init];
+            vc.title = @"我的";
+            UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+            [viewControllers addObject:navi];
+        }
+        _tabBarController.viewControllers = viewControllers;
+        for (UITabBarItem *item in _tabBarController.tabBar.items) {
+            item.imageInsets = UIEdgeInsetsMake(0, 0, -10, 0);
+        }
+    }
+    return _tabBarController;
 }
 
 

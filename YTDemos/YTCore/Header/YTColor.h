@@ -17,5 +17,6 @@
 #define BlueColor  [UIColor blueColor]
 #define GrayColor  [UIColor grayColor]
 #define YellowColor [UIColor yellowColor]
+#define ClearColor [UIColor clearColor]
 
 #endif /* YTColor_h */

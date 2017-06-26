@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008A8B571ECC4B9A0039E0AF /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8B561ECC4B9A0039E0AF /* MainController.m */; };
-		008A8B5B1ECC4CC60039E0AF /* GoToSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8B5A1ECC4CC60039E0AF /* GoToSettingsController.m */; };
+		0030FEC61EF92E4500CEE97E /* CustomDatePickerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030FEC51EF92E4500CEE97E /* CustomDatePickerDemoController.m */; };
+		0030FEC91EFA0FF300CEE97E /* CustomDatePickerDemo1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030FEC81EFA0FF300CEE97E /* CustomDatePickerDemo1Controller.m */; };
+		0030FECC1EFA101700CEE97E /* CustomDatePickerDemo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030FECB1EFA101700CEE97E /* CustomDatePickerDemo2Controller.m */; };
+		0030FED11EFA119600CEE97E /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030FED01EFA119600CEE97E /* BaseController.m */; };
+		0030FEDB1EFA536A00CEE97E /* YTDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030FEDA1EFA536A00CEE97E /* YTDatePicker.m */; };
 		008A8F7F1ECC52EE0039E0AF /* UIImage+YTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F561ECC52EE0039E0AF /* UIImage+YTImage.m */; };
 		008A8F801ECC52EE0039E0AF /* UIView+YTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F581ECC52EE0039E0AF /* UIView+YTFrame.m */; };
 		008A8F811ECC52EE0039E0AF /* YTCharacterConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F5E1ECC52EE0039E0AF /* YTCharacterConvertTool.m */; };
@@ -18,15 +21,35 @@
 		008A8F8B1ECC52EE0039E0AF /* MyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F751ECC52EE0039E0AF /* MyPageControl.m */; };
 		008A8F8C1ECC52EE0039E0AF /* YTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F781ECC52EE0039E0AF /* YTProgressView.m */; };
 		008A8F8E1ECC52EE0039E0AF /* YTCheckLargeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F7E1ECC52EE0039E0AF /* YTCheckLargeImageView.m */; };
-		008A8F941ECDABC80039E0AF /* IMPDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F931ECDABC80039E0AF /* IMPDemoController.m */; };
-		008A8F971ECE8D5D0039E0AF /* UIViewController+IMPViewDidLoaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F961ECE8D5D0039E0AF /* UIViewController+IMPViewDidLoaded.m */; };
-		008A8F9B1ED2CC9E0039E0AF /* NSStringDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F9A1ED2CC9E0039E0AF /* NSStringDemoController.m */; };
-		00B83D211ED6D93C00E09A2C /* JSCallOCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B83D201ED6D93C00E09A2C /* JSCallOCController.m */; };
 		00B83D231ED6DA1D00E09A2C /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 00B83D221ED6DA1D00E09A2C /* JSCallOC.html */; };
-		00B83D271EDE7D2500E09A2C /* ICarouselDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B83D261EDE7D2500E09A2C /* ICarouselDemoController.m */; };
-		00B83D2C1EE01B7400E09A2C /* QYDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B83D2B1EE01B7400E09A2C /* QYDemoController.m */; };
-		00C532E21EE4FEB700E2BB4F /* Deep&LightCopyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C532E11EE4FEB700E2BB4F /* Deep&LightCopyController.m */; };
-		00C532E51EE508D900E2BB4F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C532E41EE508D900E2BB4F /* Student.m */; };
+		00C534241EE8061400E2BB4F /* ICarouselDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C533FC1EE8061400E2BB4F /* ICarouselDemoController.m */; };
+		00C534251EE8061400E2BB4F /* IMPDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C533FF1EE8061400E2BB4F /* IMPDemoController.m */; };
+		00C534261EE8061400E2BB4F /* UIViewController+IMPViewDidLoaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534011EE8061400E2BB4F /* UIViewController+IMPViewDidLoaded.m */; };
+		00C534271EE8061400E2BB4F /* JSCallOCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534041EE8061400E2BB4F /* JSCallOCController.m */; };
+		00C534281EE8061400E2BB4F /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534071EE8061400E2BB4F /* MainController.m */; };
+		00C534291EE8061400E2BB4F /* NSStringDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5340A1EE8061400E2BB4F /* NSStringDemoController.m */; };
+		00C5342A1EE8061400E2BB4F /* PageController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5340D1EE8061400E2BB4F /* PageController01.m */; };
+		00C5342B1EE8061400E2BB4F /* PageController02.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5340F1EE8061400E2BB4F /* PageController02.m */; };
+		00C5342C1EE8061400E2BB4F /* PageController03.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534111EE8061400E2BB4F /* PageController03.m */; };
+		00C5342D1EE8061400E2BB4F /* PageDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534131EE8061400E2BB4F /* PageDemoController.m */; };
+		00C5342E1EE8061400E2BB4F /* QYDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534161EE8061400E2BB4F /* QYDemoController.m */; };
+		00C534311EE8061400E2BB4F /* Deep&LightCopyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5341E1EE8061400E2BB4F /* Deep&LightCopyController.m */; };
+		00C534321EE8061400E2BB4F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534201EE8061400E2BB4F /* Student.m */; };
+		00C534331EE8061400E2BB4F /* GoToSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534231EE8061400E2BB4F /* GoToSettingsController.m */; };
+		00C5343A1EE8065A00E2BB4F /* NaviDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534361EE8065A00E2BB4F /* NaviDemoController.m */; };
+		00C5343B1EE8065A00E2BB4F /* Segment_NaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534381EE8065A00E2BB4F /* Segment_NaviController.m */; };
+		00C534421EEE6C5E00E2BB4F /* YTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534411EEE6C5E00E2BB4F /* YTSegmentedControl.m */; };
+		00C534461EEE6EF100E2BB4F /* TextFieldDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534451EEE6EF100E2BB4F /* TextFieldDemoController.m */; };
+		00C5345F1EEFCAC000E2BB4F /* ScrollViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534591EEFCAC000E2BB4F /* ScrollViewDemoController.m */; };
+		00C534601EEFCAC000E2BB4F /* TableViewDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5345C1EEFCAC000E2BB4F /* TableViewDemoCell.m */; };
+		00C534611EEFCAC000E2BB4F /* TableViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5345E1EEFCAC000E2BB4F /* TableViewDemoController.m */; };
+		00C534651EEFCB0300E2BB4F /* ScrollView_ScrollViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534641EEFCB0300E2BB4F /* ScrollView_ScrollViewDemoController.m */; };
+		00C534681EEFCB1D00E2BB4F /* CollectionView_ScrollViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534671EEFCB1D00E2BB4F /* CollectionView_ScrollViewDemoController.m */; };
+		00C5346B1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5346A1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m */; };
+		00C534741EEFED8A00E2BB4F /* CollectionViewDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534731EEFED8A00E2BB4F /* CollectionViewDemoCell.m */; };
+		00C534771EF1387900E2BB4F /* ModalDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534761EF1387900E2BB4F /* ModalDemoController.m */; };
+		00C5347A1EF13A3500E2BB4F /* ModalTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534791EF13A3500E2BB4F /* ModalTestController.m */; };
+		00C5347D1EF233B300E2BB4F /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5347C1EF233B300E2BB4F /* MyController.m */; };
 		00ED8FD51EA9FF5200CA6EBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ED8FD41EA9FF5200CA6EBB /* main.m */; };
 		00ED8FD81EA9FF5200CA6EBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ED8FD71EA9FF5200CA6EBB /* AppDelegate.m */; };
 		00ED8FDE1EA9FF5200CA6EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ED8FDC1EA9FF5200CA6EBB /* Main.storyboard */; };
@@ -55,10 +78,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008A8B551ECC4B9A0039E0AF /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
-		008A8B561ECC4B9A0039E0AF /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
-		008A8B591ECC4CC60039E0AF /* GoToSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoToSettingsController.h; sourceTree = "<group>"; };
-		008A8B5A1ECC4CC60039E0AF /* GoToSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoToSettingsController.m; sourceTree = "<group>"; };
+		0030FEC41EF92E4500CEE97E /* CustomDatePickerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDatePickerDemoController.h; sourceTree = "<group>"; };
+		0030FEC51EF92E4500CEE97E /* CustomDatePickerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerDemoController.m; sourceTree = "<group>"; };
+		0030FEC71EFA0FF300CEE97E /* CustomDatePickerDemo1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDatePickerDemo1Controller.h; sourceTree = "<group>"; };
+		0030FEC81EFA0FF300CEE97E /* CustomDatePickerDemo1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerDemo1Controller.m; sourceTree = "<group>"; };
+		0030FECA1EFA101700CEE97E /* CustomDatePickerDemo2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDatePickerDemo2Controller.h; sourceTree = "<group>"; };
+		0030FECB1EFA101700CEE97E /* CustomDatePickerDemo2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerDemo2Controller.m; sourceTree = "<group>"; };
+		0030FECF1EFA119600CEE97E /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		0030FED01EFA119600CEE97E /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		0030FED91EFA536A00CEE97E /* YTDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTDatePicker.h; sourceTree = "<group>"; };
+		0030FEDA1EFA536A00CEE97E /* YTDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTDatePicker.m; sourceTree = "<group>"; };
 		008A8B5C1ECC51280039E0AF /* YTDemos.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTDemos.pch; sourceTree = "<group>"; };
 		008A8F551ECC52EE0039E0AF /* UIImage+YTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTImage.h"; sourceTree = "<group>"; };
 		008A8F561ECC52EE0039E0AF /* UIImage+YTImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTImage.m"; sourceTree = "<group>"; };
@@ -80,24 +109,64 @@
 		008A8F781ECC52EE0039E0AF /* YTProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTProgressView.m; sourceTree = "<group>"; };
 		008A8F7D1ECC52EE0039E0AF /* YTCheckLargeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCheckLargeImageView.h; sourceTree = "<group>"; };
 		008A8F7E1ECC52EE0039E0AF /* YTCheckLargeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCheckLargeImageView.m; sourceTree = "<group>"; };
-		008A8F921ECDABC80039E0AF /* IMPDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPDemoController.h; sourceTree = "<group>"; };
-		008A8F931ECDABC80039E0AF /* IMPDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPDemoController.m; sourceTree = "<group>"; };
-		008A8F951ECE8D5D0039E0AF /* UIViewController+IMPViewDidLoaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IMPViewDidLoaded.h"; sourceTree = "<group>"; };
-		008A8F961ECE8D5D0039E0AF /* UIViewController+IMPViewDidLoaded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IMPViewDidLoaded.m"; sourceTree = "<group>"; };
-		008A8F991ED2CC9E0039E0AF /* NSStringDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringDemoController.h; sourceTree = "<group>"; };
-		008A8F9A1ED2CC9E0039E0AF /* NSStringDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringDemoController.m; sourceTree = "<group>"; };
-		00B83D1F1ED6D93C00E09A2C /* JSCallOCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCallOCController.h; sourceTree = "<group>"; };
-		00B83D201ED6D93C00E09A2C /* JSCallOCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCallOCController.m; sourceTree = "<group>"; };
 		00B83D221ED6DA1D00E09A2C /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
-		00B83D251EDE7D2500E09A2C /* ICarouselDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICarouselDemoController.h; sourceTree = "<group>"; };
-		00B83D261EDE7D2500E09A2C /* ICarouselDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICarouselDemoController.m; sourceTree = "<group>"; };
 		00B83D281EDE7DB900E09A2C /* YTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTColor.h; sourceTree = "<group>"; };
-		00B83D2A1EE01B7400E09A2C /* QYDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDemoController.h; sourceTree = "<group>"; };
-		00B83D2B1EE01B7400E09A2C /* QYDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDemoController.m; sourceTree = "<group>"; };
-		00C532E01EE4FEB700E2BB4F /* Deep&LightCopyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Deep&LightCopyController.h"; sourceTree = "<group>"; };
-		00C532E11EE4FEB700E2BB4F /* Deep&LightCopyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Deep&LightCopyController.m"; sourceTree = "<group>"; };
-		00C532E31EE508D900E2BB4F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		00C532E41EE508D900E2BB4F /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		00C533FB1EE8061400E2BB4F /* ICarouselDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICarouselDemoController.h; sourceTree = "<group>"; };
+		00C533FC1EE8061400E2BB4F /* ICarouselDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICarouselDemoController.m; sourceTree = "<group>"; };
+		00C533FE1EE8061400E2BB4F /* IMPDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPDemoController.h; sourceTree = "<group>"; };
+		00C533FF1EE8061400E2BB4F /* IMPDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPDemoController.m; sourceTree = "<group>"; };
+		00C534001EE8061400E2BB4F /* UIViewController+IMPViewDidLoaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IMPViewDidLoaded.h"; sourceTree = "<group>"; };
+		00C534011EE8061400E2BB4F /* UIViewController+IMPViewDidLoaded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IMPViewDidLoaded.m"; sourceTree = "<group>"; };
+		00C534031EE8061400E2BB4F /* JSCallOCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCallOCController.h; sourceTree = "<group>"; };
+		00C534041EE8061400E2BB4F /* JSCallOCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCallOCController.m; sourceTree = "<group>"; };
+		00C534061EE8061400E2BB4F /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		00C534071EE8061400E2BB4F /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		00C534091EE8061400E2BB4F /* NSStringDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringDemoController.h; sourceTree = "<group>"; };
+		00C5340A1EE8061400E2BB4F /* NSStringDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringDemoController.m; sourceTree = "<group>"; };
+		00C5340C1EE8061400E2BB4F /* PageController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageController01.h; sourceTree = "<group>"; };
+		00C5340D1EE8061400E2BB4F /* PageController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageController01.m; sourceTree = "<group>"; };
+		00C5340E1EE8061400E2BB4F /* PageController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageController02.h; sourceTree = "<group>"; };
+		00C5340F1EE8061400E2BB4F /* PageController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageController02.m; sourceTree = "<group>"; };
+		00C534101EE8061400E2BB4F /* PageController03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageController03.h; sourceTree = "<group>"; };
+		00C534111EE8061400E2BB4F /* PageController03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageController03.m; sourceTree = "<group>"; };
+		00C534121EE8061400E2BB4F /* PageDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageDemoController.h; sourceTree = "<group>"; };
+		00C534131EE8061400E2BB4F /* PageDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageDemoController.m; sourceTree = "<group>"; };
+		00C534151EE8061400E2BB4F /* QYDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDemoController.h; sourceTree = "<group>"; };
+		00C534161EE8061400E2BB4F /* QYDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDemoController.m; sourceTree = "<group>"; };
+		00C5341D1EE8061400E2BB4F /* Deep&LightCopyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Deep&LightCopyController.h"; sourceTree = "<group>"; };
+		00C5341E1EE8061400E2BB4F /* Deep&LightCopyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Deep&LightCopyController.m"; sourceTree = "<group>"; };
+		00C5341F1EE8061400E2BB4F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		00C534201EE8061400E2BB4F /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		00C534221EE8061400E2BB4F /* GoToSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoToSettingsController.h; sourceTree = "<group>"; };
+		00C534231EE8061400E2BB4F /* GoToSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoToSettingsController.m; sourceTree = "<group>"; };
+		00C534351EE8065A00E2BB4F /* NaviDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviDemoController.h; sourceTree = "<group>"; };
+		00C534361EE8065A00E2BB4F /* NaviDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviDemoController.m; sourceTree = "<group>"; };
+		00C534371EE8065A00E2BB4F /* Segment_NaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segment_NaviController.h; sourceTree = "<group>"; };
+		00C534381EE8065A00E2BB4F /* Segment_NaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Segment_NaviController.m; sourceTree = "<group>"; };
+		00C534401EEE6C5E00E2BB4F /* YTSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSegmentedControl.h; sourceTree = "<group>"; };
+		00C534411EEE6C5E00E2BB4F /* YTSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSegmentedControl.m; sourceTree = "<group>"; };
+		00C534441EEE6EF100E2BB4F /* TextFieldDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldDemoController.h; sourceTree = "<group>"; };
+		00C534451EEE6EF100E2BB4F /* TextFieldDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldDemoController.m; sourceTree = "<group>"; };
+		00C534581EEFCAC000E2BB4F /* ScrollViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewDemoController.h; sourceTree = "<group>"; };
+		00C534591EEFCAC000E2BB4F /* ScrollViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewDemoController.m; sourceTree = "<group>"; };
+		00C5345B1EEFCAC000E2BB4F /* TableViewDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemoCell.h; sourceTree = "<group>"; };
+		00C5345C1EEFCAC000E2BB4F /* TableViewDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoCell.m; sourceTree = "<group>"; };
+		00C5345D1EEFCAC000E2BB4F /* TableViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemoController.h; sourceTree = "<group>"; };
+		00C5345E1EEFCAC000E2BB4F /* TableViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoController.m; sourceTree = "<group>"; };
+		00C534631EEFCB0300E2BB4F /* ScrollView_ScrollViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView_ScrollViewDemoController.h; sourceTree = "<group>"; };
+		00C534641EEFCB0300E2BB4F /* ScrollView_ScrollViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView_ScrollViewDemoController.m; sourceTree = "<group>"; };
+		00C534661EEFCB1D00E2BB4F /* CollectionView_ScrollViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionView_ScrollViewDemoController.h; sourceTree = "<group>"; };
+		00C534671EEFCB1D00E2BB4F /* CollectionView_ScrollViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionView_ScrollViewDemoController.m; sourceTree = "<group>"; };
+		00C534691EEFCD3E00E2BB4F /* UIViewController+YTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YTViewController.h"; sourceTree = "<group>"; };
+		00C5346A1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YTViewController.m"; sourceTree = "<group>"; };
+		00C534721EEFED8A00E2BB4F /* CollectionViewDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDemoCell.h; sourceTree = "<group>"; };
+		00C534731EEFED8A00E2BB4F /* CollectionViewDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDemoCell.m; sourceTree = "<group>"; };
+		00C534751EF1387900E2BB4F /* ModalDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalDemoController.h; sourceTree = "<group>"; };
+		00C534761EF1387900E2BB4F /* ModalDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalDemoController.m; sourceTree = "<group>"; };
+		00C534781EF13A3500E2BB4F /* ModalTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalTestController.h; sourceTree = "<group>"; };
+		00C534791EF13A3500E2BB4F /* ModalTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalTestController.m; sourceTree = "<group>"; };
+		00C5347B1EF233B300E2BB4F /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		00C5347C1EF233B300E2BB4F /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
 		00ED8FD01EA9FF5200CA6EBB /* YTDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ED8FD41EA9FF5200CA6EBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00ED8FD61EA9FF5200CA6EBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,27 +212,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		008A8B541ECC4B880039E0AF /* Main */ = {
+		0030FEC31EF92E2400CEE97E /* Custom DatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				008A8B551ECC4B9A0039E0AF /* MainController.h */,
-				008A8B561ECC4B9A0039E0AF /* MainController.m */,
+				0030FEC41EF92E4500CEE97E /* CustomDatePickerDemoController.h */,
+				0030FEC51EF92E4500CEE97E /* CustomDatePickerDemoController.m */,
+				0030FEC71EFA0FF300CEE97E /* CustomDatePickerDemo1Controller.h */,
+				0030FEC81EFA0FF300CEE97E /* CustomDatePickerDemo1Controller.m */,
+				0030FECA1EFA101700CEE97E /* CustomDatePickerDemo2Controller.h */,
+				0030FECB1EFA101700CEE97E /* CustomDatePickerDemo2Controller.m */,
+				0030FED91EFA536A00CEE97E /* YTDatePicker.h */,
+				0030FEDA1EFA536A00CEE97E /* YTDatePicker.m */,
 			);
-			path = Main;
+			path = "Custom DatePicker";
 			sourceTree = "<group>";
 		};
-		008A8B581ECC4BAC0039E0AF /* 跳转至设置 */ = {
+		0030FECD1EFA113F00CEE97E /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				008A8B591ECC4CC60039E0AF /* GoToSettingsController.h */,
-				008A8B5A1ECC4CC60039E0AF /* GoToSettingsController.m */,
+				0030FECE1EFA118500CEE97E /* Controller */,
 			);
-			path = "跳转至设置";
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0030FECE1EFA118500CEE97E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0030FECF1EFA119600CEE97E /* BaseController.h */,
+				0030FED01EFA119600CEE97E /* BaseController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		008A8F531ECC52EE0039E0AF /* YTCore */ = {
 			isa = PBXGroup;
 			children = (
+				0030FECD1EFA113F00CEE97E /* Base */,
 				008A8F541ECC52EE0039E0AF /* Category */,
 				008A8F591ECC52EE0039E0AF /* Header */,
 				008A8F5C1ECC52EE0039E0AF /* Tools */,
@@ -179,6 +263,8 @@
 				008A8F561ECC52EE0039E0AF /* UIImage+YTImage.m */,
 				008A8F571ECC52EE0039E0AF /* UIView+YTFrame.h */,
 				008A8F581ECC52EE0039E0AF /* UIView+YTFrame.m */,
+				00C534691EEFCD3E00E2BB4F /* UIViewController+YTViewController.h */,
+				00C5346A1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -207,6 +293,7 @@
 		008A8F611ECC52EE0039E0AF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00C5343F1EEE6C5E00E2BB4F /* YTSegmentControl */,
 				008A8F6D1ECC52EE0039E0AF /* YTFlower */,
 				008A8F701ECC52EE0039E0AF /* YTHeartView */,
 				008A8F731ECC52EE0039E0AF /* YTPageCtrol */,
@@ -261,91 +348,217 @@
 			path = "查看图片大图";
 			sourceTree = "<group>";
 		};
-		008A8F911ECDAB9D0039E0AF /* IMP */ = {
+		00C533F91EE8061400E2BB4F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				008A8F921ECDABC80039E0AF /* IMPDemoController.h */,
-				008A8F931ECDABC80039E0AF /* IMPDemoController.m */,
-				008A8F951ECE8D5D0039E0AF /* UIViewController+IMPViewDidLoaded.h */,
-				008A8F961ECE8D5D0039E0AF /* UIViewController+IMPViewDidLoaded.m */,
+				00C534051EE8061400E2BB4F /* Main */,
+				0030FEC31EF92E2400CEE97E /* Custom DatePicker */,
+				00C534521EEFBE3000E2BB4F /* ScrollView */,
+				00C534431EEE6EC500E2BB4F /* TextField */,
+				00C533FA1EE8061400E2BB4F /* iCarousel */,
+				00C533FD1EE8061400E2BB4F /* IMP */,
+				00C534021EE8061400E2BB4F /* JSCallOC */,
+				00C534081EE8061400E2BB4F /* NSString */,
+				00C5340B1EE8061400E2BB4F /* WMPageController */,
+				00C534141EE8061400E2BB4F /* 七鱼 */,
+				00C534171EE8061400E2BB4F /* 导航相关 */,
+				00C5341C1EE8061400E2BB4F /* 深浅拷贝 */,
+				00C534211EE8061400E2BB4F /* 跳转至设置 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00C533FA1EE8061400E2BB4F /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				00C533FB1EE8061400E2BB4F /* ICarouselDemoController.h */,
+				00C533FC1EE8061400E2BB4F /* ICarouselDemoController.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		00C533FD1EE8061400E2BB4F /* IMP */ = {
+			isa = PBXGroup;
+			children = (
+				00C533FE1EE8061400E2BB4F /* IMPDemoController.h */,
+				00C533FF1EE8061400E2BB4F /* IMPDemoController.m */,
+				00C534001EE8061400E2BB4F /* UIViewController+IMPViewDidLoaded.h */,
+				00C534011EE8061400E2BB4F /* UIViewController+IMPViewDidLoaded.m */,
 			);
 			path = IMP;
 			sourceTree = "<group>";
 		};
-		008A8F981ED2CC880039E0AF /* NSString */ = {
+		00C534021EE8061400E2BB4F /* JSCallOC */ = {
 			isa = PBXGroup;
 			children = (
-				008A8F991ED2CC9E0039E0AF /* NSStringDemoController.h */,
-				008A8F9A1ED2CC9E0039E0AF /* NSStringDemoController.m */,
+				00C534031EE8061400E2BB4F /* JSCallOCController.h */,
+				00C534041EE8061400E2BB4F /* JSCallOCController.m */,
+			);
+			path = JSCallOC;
+			sourceTree = "<group>";
+		};
+		00C534051EE8061400E2BB4F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				00C534061EE8061400E2BB4F /* MainController.h */,
+				00C534071EE8061400E2BB4F /* MainController.m */,
+				00C5347B1EF233B300E2BB4F /* MyController.h */,
+				00C5347C1EF233B300E2BB4F /* MyController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		00C534081EE8061400E2BB4F /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				00C534091EE8061400E2BB4F /* NSStringDemoController.h */,
+				00C5340A1EE8061400E2BB4F /* NSStringDemoController.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
 		};
-		009EF5DB1EAF409E00AFEB13 /* Controller */ = {
+		00C5340B1EE8061400E2BB4F /* WMPageController */ = {
 			isa = PBXGroup;
 			children = (
-				008A8B541ECC4B880039E0AF /* Main */,
-				00C532DF1EE4FE7100E2BB4F /* 深浅拷贝 */,
-				00B83D291EE01B5E00E09A2C /* 七鱼 */,
-				00B83D241EDE7D0F00E09A2C /* iCarousel */,
-				00B83D1E1ED6D91F00E09A2C /* JSCallOC */,
-				008A8F981ED2CC880039E0AF /* NSString */,
-				008A8F911ECDAB9D0039E0AF /* IMP */,
-				008A8B581ECC4BAC0039E0AF /* 跳转至设置 */,
+				00C5340C1EE8061400E2BB4F /* PageController01.h */,
+				00C5340D1EE8061400E2BB4F /* PageController01.m */,
+				00C5340E1EE8061400E2BB4F /* PageController02.h */,
+				00C5340F1EE8061400E2BB4F /* PageController02.m */,
+				00C534101EE8061400E2BB4F /* PageController03.h */,
+				00C534111EE8061400E2BB4F /* PageController03.m */,
+				00C534121EE8061400E2BB4F /* PageDemoController.h */,
+				00C534131EE8061400E2BB4F /* PageDemoController.m */,
+			);
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		00C534141EE8061400E2BB4F /* 七鱼 */ = {
+			isa = PBXGroup;
+			children = (
+				00C534151EE8061400E2BB4F /* QYDemoController.h */,
+				00C534161EE8061400E2BB4F /* QYDemoController.m */,
+			);
+			path = "七鱼";
+			sourceTree = "<group>";
+		};
+		00C534171EE8061400E2BB4F /* 导航相关 */ = {
+			isa = PBXGroup;
+			children = (
+				00C534341EE8065A00E2BB4F /* Controller */,
+				00C534391EE8065A00E2BB4F /* View */,
+			);
+			path = "导航相关";
+			sourceTree = "<group>";
+		};
+		00C5341C1EE8061400E2BB4F /* 深浅拷贝 */ = {
+			isa = PBXGroup;
+			children = (
+				00C5341D1EE8061400E2BB4F /* Deep&LightCopyController.h */,
+				00C5341E1EE8061400E2BB4F /* Deep&LightCopyController.m */,
+				00C5341F1EE8061400E2BB4F /* Student.h */,
+				00C534201EE8061400E2BB4F /* Student.m */,
+			);
+			path = "深浅拷贝";
+			sourceTree = "<group>";
+		};
+		00C534211EE8061400E2BB4F /* 跳转至设置 */ = {
+			isa = PBXGroup;
+			children = (
+				00C534221EE8061400E2BB4F /* GoToSettingsController.h */,
+				00C534231EE8061400E2BB4F /* GoToSettingsController.m */,
+			);
+			path = "跳转至设置";
+			sourceTree = "<group>";
+		};
+		00C534341EE8065A00E2BB4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00C534351EE8065A00E2BB4F /* NaviDemoController.h */,
+				00C534361EE8065A00E2BB4F /* NaviDemoController.m */,
+				00C534371EE8065A00E2BB4F /* Segment_NaviController.h */,
+				00C534381EE8065A00E2BB4F /* Segment_NaviController.m */,
+				00C534751EF1387900E2BB4F /* ModalDemoController.h */,
+				00C534761EF1387900E2BB4F /* ModalDemoController.m */,
+				00C534781EF13A3500E2BB4F /* ModalTestController.h */,
+				00C534791EF13A3500E2BB4F /* ModalTestController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		009EF5DC1EAF409E00AFEB13 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		009EF5DD1EAF409E00AFEB13 /* View */ = {
+		00C534391EE8065A00E2BB4F /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		00B83D1E1ED6D91F00E09A2C /* JSCallOC */ = {
+		00C5343F1EEE6C5E00E2BB4F /* YTSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
-				00B83D1F1ED6D93C00E09A2C /* JSCallOCController.h */,
-				00B83D201ED6D93C00E09A2C /* JSCallOCController.m */,
+				00C534401EEE6C5E00E2BB4F /* YTSegmentedControl.h */,
+				00C534411EEE6C5E00E2BB4F /* YTSegmentedControl.m */,
 			);
-			path = JSCallOC;
+			path = YTSegmentControl;
 			sourceTree = "<group>";
 		};
-		00B83D241EDE7D0F00E09A2C /* iCarousel */ = {
+		00C534431EEE6EC500E2BB4F /* TextField */ = {
 			isa = PBXGroup;
 			children = (
-				00B83D251EDE7D2500E09A2C /* ICarouselDemoController.h */,
-				00B83D261EDE7D2500E09A2C /* ICarouselDemoController.m */,
+				00C534441EEE6EF100E2BB4F /* TextFieldDemoController.h */,
+				00C534451EEE6EF100E2BB4F /* TextFieldDemoController.m */,
 			);
-			path = iCarousel;
+			path = TextField;
 			sourceTree = "<group>";
 		};
-		00B83D291EE01B5E00E09A2C /* 七鱼 */ = {
+		00C534521EEFBE3000E2BB4F /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				00B83D2A1EE01B7400E09A2C /* QYDemoController.h */,
-				00B83D2B1EE01B7400E09A2C /* QYDemoController.m */,
+				00C534571EEFCAC000E2BB4F /* Main */,
+				00C534621EEFCAD600E2BB4F /* ScrollView */,
+				00C534561EEFCAC000E2BB4F /* CollectionView */,
+				00C5345A1EEFCAC000E2BB4F /* TableView */,
 			);
-			path = "七鱼";
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
-		00C532DF1EE4FE7100E2BB4F /* 深浅拷贝 */ = {
+		00C534561EEFCAC000E2BB4F /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				00C532E01EE4FEB700E2BB4F /* Deep&LightCopyController.h */,
-				00C532E11EE4FEB700E2BB4F /* Deep&LightCopyController.m */,
-				00C532E31EE508D900E2BB4F /* Student.h */,
-				00C532E41EE508D900E2BB4F /* Student.m */,
+				00C534661EEFCB1D00E2BB4F /* CollectionView_ScrollViewDemoController.h */,
+				00C534671EEFCB1D00E2BB4F /* CollectionView_ScrollViewDemoController.m */,
+				00C534721EEFED8A00E2BB4F /* CollectionViewDemoCell.h */,
+				00C534731EEFED8A00E2BB4F /* CollectionViewDemoCell.m */,
 			);
-			path = "深浅拷贝";
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		00C534571EEFCAC000E2BB4F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				00C534581EEFCAC000E2BB4F /* ScrollViewDemoController.h */,
+				00C534591EEFCAC000E2BB4F /* ScrollViewDemoController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		00C5345A1EEFCAC000E2BB4F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				00C5345B1EEFCAC000E2BB4F /* TableViewDemoCell.h */,
+				00C5345C1EEFCAC000E2BB4F /* TableViewDemoCell.m */,
+				00C5345D1EEFCAC000E2BB4F /* TableViewDemoController.h */,
+				00C5345E1EEFCAC000E2BB4F /* TableViewDemoController.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		00C534621EEFCAD600E2BB4F /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				00C534631EEFCB0300E2BB4F /* ScrollView_ScrollViewDemoController.h */,
+				00C534641EEFCB0300E2BB4F /* ScrollView_ScrollViewDemoController.m */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 		00ED8FC71EA9FF5200CA6EBB = {
@@ -375,10 +588,8 @@
 			children = (
 				00ED8FD61EA9FF5200CA6EBB /* AppDelegate.h */,
 				00ED8FD71EA9FF5200CA6EBB /* AppDelegate.m */,
+				00C533F91EE8061400E2BB4F /* Classes */,
 				008A8F531ECC52EE0039E0AF /* YTCore */,
-				009EF5DB1EAF409E00AFEB13 /* Controller */,
-				009EF5DC1EAF409E00AFEB13 /* Model */,
-				009EF5DD1EAF409E00AFEB13 /* View */,
 				00ED8FDC1EA9FF5200CA6EBB /* Main.storyboard */,
 				00ED8FDF1EA9FF5200CA6EBB /* Assets.xcassets */,
 				00ED8FE11EA9FF5200CA6EBB /* LaunchScreen.storyboard */,
@@ -619,27 +830,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C532E21EE4FEB700E2BB4F /* Deep&LightCopyController.m in Sources */,
-				00B83D211ED6D93C00E09A2C /* JSCallOCController.m in Sources */,
+				00C5347D1EF233B300E2BB4F /* MyController.m in Sources */,
+				00C534611EEFCAC000E2BB4F /* TableViewDemoController.m in Sources */,
+				0030FEDB1EFA536A00CEE97E /* YTDatePicker.m in Sources */,
+				00C534241EE8061400E2BB4F /* ICarouselDemoController.m in Sources */,
 				00ED8FD81EA9FF5200CA6EBB /* AppDelegate.m in Sources */,
 				008A8F891ECC52EE0039E0AF /* TestFlowerView.m in Sources */,
-				008A8B5B1ECC4CC60039E0AF /* GoToSettingsController.m in Sources */,
-				008A8F9B1ED2CC9E0039E0AF /* NSStringDemoController.m in Sources */,
-				00B83D271EDE7D2500E09A2C /* ICarouselDemoController.m in Sources */,
-				008A8F971ECE8D5D0039E0AF /* UIViewController+IMPViewDidLoaded.m in Sources */,
+				00C534771EF1387900E2BB4F /* ModalDemoController.m in Sources */,
+				0030FEC91EFA0FF300CEE97E /* CustomDatePickerDemo1Controller.m in Sources */,
+				0030FEC61EF92E4500CEE97E /* CustomDatePickerDemoController.m in Sources */,
 				008A8F8E1ECC52EE0039E0AF /* YTCheckLargeImageView.m in Sources */,
-				008A8B571ECC4B9A0039E0AF /* MainController.m in Sources */,
+				00C5342E1EE8061400E2BB4F /* QYDemoController.m in Sources */,
+				00C5346B1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m in Sources */,
+				00C534421EEE6C5E00E2BB4F /* YTSegmentedControl.m in Sources */,
+				00C5347A1EF13A3500E2BB4F /* ModalTestController.m in Sources */,
+				00C534331EE8061400E2BB4F /* GoToSettingsController.m in Sources */,
+				00C534281EE8061400E2BB4F /* MainController.m in Sources */,
+				00C5342C1EE8061400E2BB4F /* PageController03.m in Sources */,
 				008A8F8A1ECC52EE0039E0AF /* TestHeartView.m in Sources */,
+				00C534261EE8061400E2BB4F /* UIViewController+IMPViewDidLoaded.m in Sources */,
+				0030FECC1EFA101700CEE97E /* CustomDatePickerDemo2Controller.m in Sources */,
+				0030FED11EFA119600CEE97E /* BaseController.m in Sources */,
+				00C5343A1EE8065A00E2BB4F /* NaviDemoController.m in Sources */,
+				00C534681EEFCB1D00E2BB4F /* CollectionView_ScrollViewDemoController.m in Sources */,
 				008A8F7F1ECC52EE0039E0AF /* UIImage+YTImage.m in Sources */,
+				00C534461EEE6EF100E2BB4F /* TextFieldDemoController.m in Sources */,
 				008A8F821ECC52EE0039E0AF /* YTRegex.m in Sources */,
+				00C5342B1EE8061400E2BB4F /* PageController02.m in Sources */,
+				00C534601EEFCAC000E2BB4F /* TableViewDemoCell.m in Sources */,
 				008A8F8C1ECC52EE0039E0AF /* YTProgressView.m in Sources */,
 				00ED8FD51EA9FF5200CA6EBB /* main.m in Sources */,
-				00C532E51EE508D900E2BB4F /* Student.m in Sources */,
-				00B83D2C1EE01B7400E09A2C /* QYDemoController.m in Sources */,
+				00C5345F1EEFCAC000E2BB4F /* ScrollViewDemoController.m in Sources */,
+				00C534741EEFED8A00E2BB4F /* CollectionViewDemoCell.m in Sources */,
 				008A8F801ECC52EE0039E0AF /* UIView+YTFrame.m in Sources */,
+				00C534321EE8061400E2BB4F /* Student.m in Sources */,
+				00C534291EE8061400E2BB4F /* NSStringDemoController.m in Sources */,
+				00C534311EE8061400E2BB4F /* Deep&LightCopyController.m in Sources */,
+				00C534651EEFCB0300E2BB4F /* ScrollView_ScrollViewDemoController.m in Sources */,
 				008A8F811ECC52EE0039E0AF /* YTCharacterConvertTool.m in Sources */,
+				00C5342D1EE8061400E2BB4F /* PageDemoController.m in Sources */,
+				00C534271EE8061400E2BB4F /* JSCallOCController.m in Sources */,
+				00C5342A1EE8061400E2BB4F /* PageController01.m in Sources */,
 				008A8F8B1ECC52EE0039E0AF /* MyPageControl.m in Sources */,
-				008A8F941ECDABC80039E0AF /* IMPDemoController.m in Sources */,
+				00C534251EE8061400E2BB4F /* IMPDemoController.m in Sources */,
+				00C5343B1EE8065A00E2BB4F /* Segment_NaviController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

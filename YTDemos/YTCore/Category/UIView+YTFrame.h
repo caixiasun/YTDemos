@@ -12,6 +12,7 @@
 #define YTScreenHeight [UIScreen mainScreen].bounds.size.height
 #define YTFitHeight(value) value * YTScreenHeight / 1334
 #define YTFitWidth(value) value * YTScreenWidth / 750
+#define YTFontMaxSize(value) YTFitWidth(value*2) >= value ? value : YTFitWidth(value*2)
 
 @interface UIView (YTFrame)
 
