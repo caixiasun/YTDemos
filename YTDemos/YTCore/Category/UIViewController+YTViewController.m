@@ -30,9 +30,6 @@ static const void *classNamesKey = &classNamesKey;
     }
     return arr;
 }
-//- (void)setCellTitles:(NSMutableArray *)cellTitles {
-//    objc_setAssociatedObject(self, cellTitlesKey, cellTitles, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-//}
 - (NSMutableArray *)classNames {
     NSMutableArray *arr = objc_getAssociatedObject(self, classNamesKey);
     if (!arr || ![arr isKindOfClass:[NSMutableArray class]]) {
@@ -41,8 +38,5 @@ static const void *classNamesKey = &classNamesKey;
     }
     return arr;
 }
-//- (void)setClassNames:(NSMutableArray *)classNames {
-//    objc_setAssociatedObject(self, classNamesKey, classNames, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-//}
 
 @end
