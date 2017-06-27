@@ -37,6 +37,6 @@ static const void *classNamesKey = &classNamesKey;
         objc_setAssociatedObject(self, classNamesKey, arr, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
     return arr;
-}
+} 
 
 @end

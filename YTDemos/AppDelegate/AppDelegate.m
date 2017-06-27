@@ -24,6 +24,7 @@
     // Override point for customization after application launch.
     
     //这是master分支
+    //test2
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
