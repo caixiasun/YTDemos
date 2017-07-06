@@ -50,7 +50,7 @@
     if (class) {
         UIViewController *vc = class.new;
         vc.hidesBottomBarWhenPushed = YES;
-        vc.title = className;
+        vc.title = [self.cellTitles objectAtIndex:indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

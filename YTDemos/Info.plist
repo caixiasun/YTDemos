@@ -33,6 +33,10 @@
 	<string>需要麦克风权限</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>需要照片权限</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>test.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

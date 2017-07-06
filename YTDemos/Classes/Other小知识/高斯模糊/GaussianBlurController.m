@@ -22,7 +22,11 @@
 }
 
 - (void)addCell {
-    [self addCell:@"CoreImage" ClassName:@"Demo01_GaussianBlurController"];
+    [self addCell:@"vImage" ClassName:@"Demo01_GaussianBlurController"];
+    [self addCell:@"GPUImage" ClassName:@"Demo02_GaussianBlurController"];
+    [self addCell:@"毛玻璃效果" ClassName:@"Demo03_GaussianBlurController"];
+    [self addCell:@"FXBlurView" ClassName:@"Demo04_GaussianBlurController"];
+    [self addCell:@"LBBlurredImage" ClassName:@"Demo05_GaussianBlurController"];
     
     [self.tableView reloadData];
 }

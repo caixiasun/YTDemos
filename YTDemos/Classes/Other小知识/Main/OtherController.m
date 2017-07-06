@@ -22,7 +22,8 @@
 }
 
 - (void)addCell {
-    [self addCell:@"自定义DatePicker" ClassName:@"CustomDatePickerDemoController"];
+    [self addCell:@"高斯模糊" ClassName:@"GaussianBlurController"];
+    [self addCell:@"字体相关" ClassName:@"FontDemoController"];
     
     [self.tableView reloadData];
 }

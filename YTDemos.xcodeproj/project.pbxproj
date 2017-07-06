@@ -17,6 +17,33 @@
 		008A8F8B1ECC52EE0039E0AF /* MyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F751ECC52EE0039E0AF /* MyPageControl.m */; };
 		008A8F8C1ECC52EE0039E0AF /* YTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F781ECC52EE0039E0AF /* YTProgressView.m */; };
 		008A8F8E1ECC52EE0039E0AF /* YTCheckLargeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A8F7E1ECC52EE0039E0AF /* YTCheckLargeImageView.m */; };
+		00AF215D1F04E8FD004654E0 /* Demo02_GaussianBlurController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF215C1F04E8FD004654E0 /* Demo02_GaussianBlurController.m */; };
+		00AF246E1F04F040004654E0 /* Demo03_GaussianBlurController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF246D1F04F040004654E0 /* Demo03_GaussianBlurController.m */; };
+		00AF24711F050435004654E0 /* Demo04_GaussianBlurController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24701F050435004654E0 /* Demo04_GaussianBlurController.m */; };
+		00AF247E1F0507CF004654E0 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF24791F050753004654E0 /* libGPUImage.a */; };
+		00AF247F1F0507DC004654E0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF21801F04EBB0004654E0 /* CoreMedia.framework */; };
+		00AF24801F0507E3004654E0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF21821F04EBB6004654E0 /* CoreVideo.framework */; };
+		00AF24811F0507EA004654E0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF21841F04EBC2004654E0 /* OpenGLES.framework */; };
+		00AF24821F0507EE004654E0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF217E1F04EBA1004654E0 /* AVFoundation.framework */; };
+		00AF24831F0507F4004654E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF21861F04EBC9004654E0 /* QuartzCore.framework */; };
+		00AF24881F05F764004654E0 /* Demo05_GaussianBlurController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24871F05F764004654E0 /* Demo05_GaussianBlurController.m */; };
+		00AF248D1F060124004654E0 /* TableViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF248C1F060124004654E0 /* TableViewDemoController.m */; };
+		00AF24901F06016D004654E0 /* Demo01_TableVIewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF248F1F06016D004654E0 /* Demo01_TableVIewDemoController.m */; };
+		00AF24931F0601B1004654E0 /* Demo01_TableViewDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24921F0601B1004654E0 /* Demo01_TableViewDemoCell.m */; };
+		00AF249F1F060938004654E0 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24951F060938004654E0 /* 1.jpeg */; };
+		00AF24A01F060938004654E0 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24961F060938004654E0 /* 2.jpeg */; };
+		00AF24A11F060938004654E0 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24971F060938004654E0 /* 3.jpeg */; };
+		00AF24A21F060938004654E0 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24981F060938004654E0 /* 4.jpeg */; };
+		00AF24A31F060938004654E0 /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24991F060938004654E0 /* 5.jpeg */; };
+		00AF24A41F060938004654E0 /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF249A1F060938004654E0 /* 6.jpeg */; };
+		00AF24A51F060938004654E0 /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF249B1F060938004654E0 /* 7.jpeg */; };
+		00AF24A61F060938004654E0 /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF249C1F060938004654E0 /* 8.jpeg */; };
+		00AF24A71F060938004654E0 /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF249D1F060938004654E0 /* 9.jpeg */; };
+		00AF24A81F060938004654E0 /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF249E1F060938004654E0 /* 10.jpeg */; };
+		00AF24AC1F0626B4004654E0 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24AA1F0626B4004654E0 /* TestCell.m */; };
+		00AF24AD1F0626B4004654E0 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24AB1F0626B4004654E0 /* TestCell.xib */; };
+		00AF24B11F06423F004654E0 /* FontDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24B01F06423F004654E0 /* FontDemoController.m */; };
+		00AF24B41F064270004654E0 /* Demo01_FontDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24B31F064270004654E0 /* Demo01_FontDemoController.m */; };
 		00B83D231ED6DA1D00E09A2C /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 00B83D221ED6DA1D00E09A2C /* JSCallOC.html */; };
 		00C534421EEE6C5E00E2BB4F /* YTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534411EEE6C5E00E2BB4F /* YTSegmentedControl.m */; };
 		00C5346B1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5346A1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m */; };
@@ -44,8 +71,6 @@
 		00F052711F011CD60080C610 /* CollectionViewDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F052341F011CD60080C610 /* CollectionViewDemoCell.m */; };
 		00F052721F011CD60080C610 /* ScrollViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F052371F011CD60080C610 /* ScrollViewDemoController.m */; };
 		00F052731F011CD60080C610 /* ScrollView_ScrollViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0523A1F011CD60080C610 /* ScrollView_ScrollViewDemoController.m */; };
-		00F052741F011CD60080C610 /* TableViewDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0523D1F011CD60080C610 /* TableViewDemoCell.m */; };
-		00F052751F011CD60080C610 /* TableViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0523F1F011CD60080C610 /* TableViewDemoController.m */; };
 		00F052761F011CD60080C610 /* TextFieldDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F052421F011CD60080C610 /* TextFieldDemoController.m */; };
 		00F052771F011CD60080C610 /* PageController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F052451F011CD60080C610 /* PageController01.m */; };
 		00F052781F011CD60080C610 /* PageController02.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F052471F011CD60080C610 /* PageController02.m */; };
@@ -66,6 +91,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		00AF24781F050753004654E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00AF24721F050753004654E0 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		00AF247A1F050753004654E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00AF24721F050753004654E0 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		00AF247C1F0507BD004654E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00AF24721F050753004654E0 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
 		00ED8FEA1EA9FF5200CA6EBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00ED8FC81EA9FF5200CA6EBB /* Project object */;
@@ -106,6 +152,46 @@
 		008A8F781ECC52EE0039E0AF /* YTProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTProgressView.m; sourceTree = "<group>"; };
 		008A8F7D1ECC52EE0039E0AF /* YTCheckLargeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCheckLargeImageView.h; sourceTree = "<group>"; };
 		008A8F7E1ECC52EE0039E0AF /* YTCheckLargeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCheckLargeImageView.m; sourceTree = "<group>"; };
+		00AF215B1F04E8FD004654E0 /* Demo02_GaussianBlurController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo02_GaussianBlurController.h; sourceTree = "<group>"; };
+		00AF215C1F04E8FD004654E0 /* Demo02_GaussianBlurController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo02_GaussianBlurController.m; sourceTree = "<group>"; };
+		00AF217E1F04EBA1004654E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		00AF21801F04EBB0004654E0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		00AF21821F04EBB6004654E0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		00AF21841F04EBC2004654E0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		00AF21861F04EBC9004654E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00AF21881F04EBD2004654E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00AF218A1F04EBD8004654E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00AF218C1F04EBDE004654E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00AF246C1F04F040004654E0 /* Demo03_GaussianBlurController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo03_GaussianBlurController.h; sourceTree = "<group>"; };
+		00AF246D1F04F040004654E0 /* Demo03_GaussianBlurController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo03_GaussianBlurController.m; sourceTree = "<group>"; };
+		00AF246F1F050435004654E0 /* Demo04_GaussianBlurController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo04_GaussianBlurController.h; sourceTree = "<group>"; };
+		00AF24701F050435004654E0 /* Demo04_GaussianBlurController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo04_GaussianBlurController.m; sourceTree = "<group>"; };
+		00AF24721F050753004654E0 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = framework/GPUImage.xcodeproj; sourceTree = SOURCE_ROOT; };
+		00AF24861F05F764004654E0 /* Demo05_GaussianBlurController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo05_GaussianBlurController.h; sourceTree = "<group>"; };
+		00AF24871F05F764004654E0 /* Demo05_GaussianBlurController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo05_GaussianBlurController.m; sourceTree = "<group>"; };
+		00AF248B1F060124004654E0 /* TableViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemoController.h; sourceTree = "<group>"; };
+		00AF248C1F060124004654E0 /* TableViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoController.m; sourceTree = "<group>"; };
+		00AF248E1F06016D004654E0 /* Demo01_TableVIewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo01_TableVIewDemoController.h; sourceTree = "<group>"; };
+		00AF248F1F06016D004654E0 /* Demo01_TableVIewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo01_TableVIewDemoController.m; sourceTree = "<group>"; };
+		00AF24911F0601B1004654E0 /* Demo01_TableViewDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo01_TableViewDemoCell.h; sourceTree = "<group>"; };
+		00AF24921F0601B1004654E0 /* Demo01_TableViewDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo01_TableViewDemoCell.m; sourceTree = "<group>"; };
+		00AF24951F060938004654E0 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		00AF24961F060938004654E0 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		00AF24971F060938004654E0 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		00AF24981F060938004654E0 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		00AF24991F060938004654E0 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		00AF249A1F060938004654E0 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		00AF249B1F060938004654E0 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		00AF249C1F060938004654E0 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		00AF249D1F060938004654E0 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		00AF249E1F060938004654E0 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		00AF24A91F0626B4004654E0 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		00AF24AA1F0626B4004654E0 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		00AF24AB1F0626B4004654E0 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		00AF24AF1F06423F004654E0 /* FontDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontDemoController.h; sourceTree = "<group>"; };
+		00AF24B01F06423F004654E0 /* FontDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontDemoController.m; sourceTree = "<group>"; };
+		00AF24B21F064270004654E0 /* Demo01_FontDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo01_FontDemoController.h; sourceTree = "<group>"; };
+		00AF24B31F064270004654E0 /* Demo01_FontDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo01_FontDemoController.m; sourceTree = "<group>"; };
 		00B83D221ED6DA1D00E09A2C /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
 		00B83D281EDE7DB900E09A2C /* YTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTColor.h; sourceTree = "<group>"; };
 		00C534401EEE6C5E00E2BB4F /* YTSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSegmentedControl.h; sourceTree = "<group>"; };
@@ -159,10 +245,6 @@
 		00F052371F011CD60080C610 /* ScrollViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewDemoController.m; sourceTree = "<group>"; };
 		00F052391F011CD60080C610 /* ScrollView_ScrollViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView_ScrollViewDemoController.h; sourceTree = "<group>"; };
 		00F0523A1F011CD60080C610 /* ScrollView_ScrollViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView_ScrollViewDemoController.m; sourceTree = "<group>"; };
-		00F0523C1F011CD60080C610 /* TableViewDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemoCell.h; sourceTree = "<group>"; };
-		00F0523D1F011CD60080C610 /* TableViewDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoCell.m; sourceTree = "<group>"; };
-		00F0523E1F011CD60080C610 /* TableViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemoController.h; sourceTree = "<group>"; };
-		00F0523F1F011CD60080C610 /* TableViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoController.m; sourceTree = "<group>"; };
 		00F052411F011CD60080C610 /* TextFieldDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldDemoController.h; sourceTree = "<group>"; };
 		00F052421F011CD60080C610 /* TextFieldDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldDemoController.m; sourceTree = "<group>"; };
 		00F052441F011CD60080C610 /* PageController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageController01.h; sourceTree = "<group>"; };
@@ -205,6 +287,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AF24831F0507F4004654E0 /* QuartzCore.framework in Frameworks */,
+				00AF24821F0507EE004654E0 /* AVFoundation.framework in Frameworks */,
+				00AF24811F0507EA004654E0 /* OpenGLES.framework in Frameworks */,
+				00AF24801F0507E3004654E0 /* CoreVideo.framework in Frameworks */,
+				00AF247F1F0507DC004654E0 /* CoreMedia.framework in Frameworks */,
+				00AF247E1F0507CF004654E0 /* libGPUImage.a in Frameworks */,
 				2435C38DEF0BA87F374EB4BE /* libPods-YTDemos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +435,43 @@
 				008A8F7E1ECC52EE0039E0AF /* YTCheckLargeImageView.m */,
 			);
 			path = "查看图片大图";
+			sourceTree = "<group>";
+		};
+		00AF24731F050753004654E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00AF24791F050753004654E0 /* libGPUImage.a */,
+				00AF247B1F050753004654E0 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00AF24941F060923004654E0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				00AF24951F060938004654E0 /* 1.jpeg */,
+				00AF24961F060938004654E0 /* 2.jpeg */,
+				00AF24971F060938004654E0 /* 3.jpeg */,
+				00AF24981F060938004654E0 /* 4.jpeg */,
+				00AF24991F060938004654E0 /* 5.jpeg */,
+				00AF249A1F060938004654E0 /* 6.jpeg */,
+				00AF249B1F060938004654E0 /* 7.jpeg */,
+				00AF249C1F060938004654E0 /* 8.jpeg */,
+				00AF249D1F060938004654E0 /* 9.jpeg */,
+				00AF249E1F060938004654E0 /* 10.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		00AF24AE1F06421C004654E0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				00AF24AF1F06423F004654E0 /* FontDemoController.h */,
+				00AF24B01F06423F004654E0 /* FontDemoController.m */,
+				00AF24B21F064270004654E0 /* Demo01_FontDemoController.h */,
+				00AF24B31F064270004654E0 /* Demo01_FontDemoController.m */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		00C533F91EE8061400E2BB4F /* Classes */ = {
@@ -566,10 +691,16 @@
 		00F0523B1F011CD60080C610 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				00F0523C1F011CD60080C610 /* TableViewDemoCell.h */,
-				00F0523D1F011CD60080C610 /* TableViewDemoCell.m */,
-				00F0523E1F011CD60080C610 /* TableViewDemoController.h */,
-				00F0523F1F011CD60080C610 /* TableViewDemoController.m */,
+				00AF248B1F060124004654E0 /* TableViewDemoController.h */,
+				00AF248C1F060124004654E0 /* TableViewDemoController.m */,
+				00AF248E1F06016D004654E0 /* Demo01_TableVIewDemoController.h */,
+				00AF248F1F06016D004654E0 /* Demo01_TableVIewDemoController.m */,
+				00AF24A91F0626B4004654E0 /* TestCell.h */,
+				00AF24AA1F0626B4004654E0 /* TestCell.m */,
+				00AF24AB1F0626B4004654E0 /* TestCell.xib */,
+				00AF24911F0601B1004654E0 /* Demo01_TableViewDemoCell.h */,
+				00AF24921F0601B1004654E0 /* Demo01_TableViewDemoCell.m */,
+				00AF24941F060923004654E0 /* images */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -671,6 +802,7 @@
 			isa = PBXGroup;
 			children = (
 				00F052881F01F8240080C610 /* Main */,
+				00AF24AE1F06421C004654E0 /* Font */,
 				00F052871F01F8240080C610 /* 高斯模糊 */,
 			);
 			path = "Other小知识";
@@ -683,6 +815,15 @@
 				00E00A411F01FA3000AA7CCE /* GaussianBlurController.m */,
 				00E00A431F01FB3800AA7CCE /* Demo01_GaussianBlurController.h */,
 				00E00A441F01FB3800AA7CCE /* Demo01_GaussianBlurController.m */,
+				00AF215B1F04E8FD004654E0 /* Demo02_GaussianBlurController.h */,
+				00AF215C1F04E8FD004654E0 /* Demo02_GaussianBlurController.m */,
+				00AF246C1F04F040004654E0 /* Demo03_GaussianBlurController.h */,
+				00AF246D1F04F040004654E0 /* Demo03_GaussianBlurController.m */,
+				00AF246F1F050435004654E0 /* Demo04_GaussianBlurController.h */,
+				00AF24701F050435004654E0 /* Demo04_GaussianBlurController.m */,
+				00AF24861F05F764004654E0 /* Demo05_GaussianBlurController.h */,
+				00AF24871F05F764004654E0 /* Demo05_GaussianBlurController.m */,
+				00AF24721F050753004654E0 /* GPUImage.xcodeproj */,
 				00E00A461F01FD5500AA7CCE /* images */,
 			);
 			path = "高斯模糊";
@@ -709,6 +850,14 @@
 		290BF2D606409A4CE0644E40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00AF218C1F04EBDE004654E0 /* CoreGraphics.framework */,
+				00AF218A1F04EBD8004654E0 /* Foundation.framework */,
+				00AF21881F04EBD2004654E0 /* UIKit.framework */,
+				00AF21861F04EBC9004654E0 /* QuartzCore.framework */,
+				00AF21841F04EBC2004654E0 /* OpenGLES.framework */,
+				00AF21821F04EBB6004654E0 /* CoreVideo.framework */,
+				00AF21801F04EBB0004654E0 /* CoreMedia.framework */,
+				00AF217E1F04EBA1004654E0 /* AVFoundation.framework */,
 				7274732FE36063E80306FDC5 /* libPods-YTDemos.a */,
 			);
 			name = Frameworks;
@@ -740,6 +889,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				00AF247D1F0507BD004654E0 /* PBXTargetDependency */,
 			);
 			name = YTDemos;
 			productName = YTDemos;
@@ -819,6 +969,12 @@
 			mainGroup = 00ED8FC71EA9FF5200CA6EBB;
 			productRefGroup = 00ED8FD11EA9FF5200CA6EBB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 00AF24731F050753004654E0 /* Products */;
+					ProjectRef = 00AF24721F050753004654E0 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				00ED8FCF1EA9FF5200CA6EBB /* YTDemos */,
@@ -828,16 +984,44 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		00AF24791F050753004654E0 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 00AF24781F050753004654E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00AF247B1F050753004654E0 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 00AF247A1F050753004654E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		00ED8FCE1EA9FF5200CA6EBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AF24A61F060938004654E0 /* 8.jpeg in Resources */,
 				00E00A481F01FD6300AA7CCE /* blur_01.jpeg in Resources */,
+				00AF24A51F060938004654E0 /* 7.jpeg in Resources */,
+				00AF249F1F060938004654E0 /* 1.jpeg in Resources */,
 				00ED8FE31EA9FF5200CA6EBB /* LaunchScreen.storyboard in Resources */,
 				00B83D231ED6DA1D00E09A2C /* JSCallOC.html in Resources */,
+				00AF24A81F060938004654E0 /* 10.jpeg in Resources */,
 				00ED8FE01EA9FF5200CA6EBB /* Assets.xcassets in Resources */,
+				00AF24A31F060938004654E0 /* 5.jpeg in Resources */,
+				00AF24A41F060938004654E0 /* 6.jpeg in Resources */,
+				00AF24A11F060938004654E0 /* 3.jpeg in Resources */,
 				00ED8FDE1EA9FF5200CA6EBB /* Main.storyboard in Resources */,
+				00AF24A21F060938004654E0 /* 4.jpeg in Resources */,
+				00AF24AD1F0626B4004654E0 /* TestCell.xib in Resources */,
+				00AF24A01F060938004654E0 /* 2.jpeg in Resources */,
+				00AF24A71F060938004654E0 /* 9.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,9 +1048,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YTDemos/Pods-YTDemos-resources.sh",
+				"${PODS_ROOT}/QIYU_iOS_SDK/SDK/QYResource.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/QIYU_iOS_SDK/QYResource.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -879,13 +1067,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTDemos-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CFEBCFF8339CB76ECD179D03 /* [CP] Embed Pods Frameworks */ = {
@@ -911,6 +1102,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F052821F011CD60080C610 /* GoToSettingsController.m in Sources */,
+				00AF24AC1F0626B4004654E0 /* TestCell.m in Sources */,
+				00AF246E1F04F040004654E0 /* Demo03_GaussianBlurController.m in Sources */,
 				008A8F891ECC52EE0039E0AF /* TestFlowerView.m in Sources */,
 				00F052781F011CD60080C610 /* PageController02.m in Sources */,
 				00F052791F011CD60080C610 /* PageController03.m in Sources */,
@@ -924,27 +1117,32 @@
 				00F052811F011CD60080C610 /* Student.m in Sources */,
 				00E00A421F01FA3000AA7CCE /* GaussianBlurController.m in Sources */,
 				008A8F8A1ECC52EE0039E0AF /* TestHeartView.m in Sources */,
+				00AF24881F05F764004654E0 /* Demo05_GaussianBlurController.m in Sources */,
 				00F0526A1F011CD60080C610 /* ICarouselDemoController.m in Sources */,
 				0030FED11EFA119600CEE97E /* BaseTableController.m in Sources */,
 				00F052721F011CD60080C610 /* ScrollViewDemoController.m in Sources */,
 				008A8F7F1ECC52EE0039E0AF /* UIImage+YTImage.m in Sources */,
+				00AF24931F0601B1004654E0 /* Demo01_TableViewDemoCell.m in Sources */,
 				00F052761F011CD60080C610 /* TextFieldDemoController.m in Sources */,
 				00E00A451F01FB3800AA7CCE /* Demo01_GaussianBlurController.m in Sources */,
 				00F052831F011CD60080C610 /* MyController.m in Sources */,
 				00F0526B1F011CD60080C610 /* IMPDemoController.m in Sources */,
-				00F052741F011CD60080C610 /* TableViewDemoCell.m in Sources */,
 				00F0527A1F011CD60080C610 /* PageDemoController.m in Sources */,
+				00AF24B41F064270004654E0 /* Demo01_FontDemoController.m in Sources */,
 				00E00A3F1F01F9CA00AA7CCE /* BaseController.m in Sources */,
 				00F052731F011CD60080C610 /* ScrollView_ScrollViewDemoController.m in Sources */,
 				00F052771F011CD60080C610 /* PageController01.m in Sources */,
 				008A8F821ECC52EE0039E0AF /* YTRegex.m in Sources */,
+				00AF215D1F04E8FD004654E0 /* Demo02_GaussianBlurController.m in Sources */,
+				00AF248D1F060124004654E0 /* TableViewDemoController.m in Sources */,
 				00F0527B1F011CD60080C610 /* QYDemoController.m in Sources */,
+				00AF24901F06016D004654E0 /* Demo01_TableVIewDemoController.m in Sources */,
 				00F0527E1F011CD60080C610 /* NaviDemoController.m in Sources */,
 				00F0526E1F011CD60080C610 /* MainController.m in Sources */,
 				008A8F8C1ECC52EE0039E0AF /* YTProgressView.m in Sources */,
 				00F0528F1F01F8BE0080C610 /* AppDelegate.m in Sources */,
 				00F0526D1F011CD60080C610 /* JSCallOCController.m in Sources */,
-				00F052751F011CD60080C610 /* TableViewDemoController.m in Sources */,
+				00AF24711F050435004654E0 /* Demo04_GaussianBlurController.m in Sources */,
 				00F052671F011CD60080C610 /* CustomDatePickerDemo2Controller.m in Sources */,
 				00ED8FD51EA9FF5200CA6EBB /* main.m in Sources */,
 				00F052661F011CD60080C610 /* CustomDatePickerDemo1Controller.m in Sources */,
@@ -955,6 +1153,7 @@
 				008A8F801ECC52EE0039E0AF /* UIView+YTFrame.m in Sources */,
 				008A8F811ECC52EE0039E0AF /* YTCharacterConvertTool.m in Sources */,
 				00F052681F011CD60080C610 /* CustomDatePickerDemoController.m in Sources */,
+				00AF24B11F06423F004654E0 /* FontDemoController.m in Sources */,
 				00F052691F011CD60080C610 /* YTDatePicker.m in Sources */,
 				00F0526C1F011CD60080C610 /* UIViewController+IMPViewDidLoaded.m in Sources */,
 				008A8F8B1ECC52EE0039E0AF /* MyPageControl.m in Sources */,
@@ -980,6 +1179,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		00AF247D1F0507BD004654E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = 00AF247C1F0507BD004654E0 /* PBXContainerItemProxy */;
+		};
 		00ED8FEB1EA9FF5200CA6EBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 00ED8FCF1EA9FF5200CA6EBB /* YTDemos */;
@@ -1110,6 +1314,18 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BZB7EJCC3L;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YTDemos/YTDemos.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FXBlurView\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/QIYU_iOS_SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/WMPageController\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"\"${PODS_ROOT}/Headers/Public/iCarousel\"",
+					"\"$(SRCROOT)/framework\"/**",
+				);
 				INFOPLIST_FILE = YTDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1131,6 +1347,18 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BZB7EJCC3L;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YTDemos/YTDemos.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FXBlurView\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/QIYU_iOS_SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/WMPageController\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"\"${PODS_ROOT}/Headers/Public/iCarousel\"",
+					"\"$(SRCROOT)/framework\"/**",
+				);
 				INFOPLIST_FILE = YTDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
