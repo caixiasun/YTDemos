@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseTableController.h"
 
-@interface NaviDemoController : UIViewController
+@interface NaviDemoController : BaseTableController
 
 @end

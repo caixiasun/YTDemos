@@ -58,8 +58,6 @@
 }
 /**
  *  点击取消按钮
- *
- *  @param datePicker
  */
 - (void)cancel {
     
@@ -67,8 +65,6 @@
 
 /**
  *  点击确定按钮
- *
- *  @param datePicker
  */
 - (void)sure {
     NSString *date = [NSString stringWithFormat:@"%@", _datePicker.date];

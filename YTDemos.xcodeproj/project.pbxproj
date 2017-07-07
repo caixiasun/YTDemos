@@ -28,8 +28,6 @@
 		00AF24831F0507F4004654E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF21861F04EBC9004654E0 /* QuartzCore.framework */; };
 		00AF24881F05F764004654E0 /* Demo05_GaussianBlurController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24871F05F764004654E0 /* Demo05_GaussianBlurController.m */; };
 		00AF248D1F060124004654E0 /* TableViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF248C1F060124004654E0 /* TableViewDemoController.m */; };
-		00AF24901F06016D004654E0 /* Demo01_TableVIewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF248F1F06016D004654E0 /* Demo01_TableVIewDemoController.m */; };
-		00AF24931F0601B1004654E0 /* Demo01_TableViewDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24921F0601B1004654E0 /* Demo01_TableViewDemoCell.m */; };
 		00AF249F1F060938004654E0 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24951F060938004654E0 /* 1.jpeg */; };
 		00AF24A01F060938004654E0 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24961F060938004654E0 /* 2.jpeg */; };
 		00AF24A11F060938004654E0 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24971F060938004654E0 /* 3.jpeg */; };
@@ -40,10 +38,15 @@
 		00AF24A61F060938004654E0 /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF249C1F060938004654E0 /* 8.jpeg */; };
 		00AF24A71F060938004654E0 /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF249D1F060938004654E0 /* 9.jpeg */; };
 		00AF24A81F060938004654E0 /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00AF249E1F060938004654E0 /* 10.jpeg */; };
-		00AF24AC1F0626B4004654E0 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24AA1F0626B4004654E0 /* TestCell.m */; };
-		00AF24AD1F0626B4004654E0 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AF24AB1F0626B4004654E0 /* TestCell.xib */; };
 		00AF24B11F06423F004654E0 /* FontDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24B01F06423F004654E0 /* FontDemoController.m */; };
 		00AF24B41F064270004654E0 /* Demo01_FontDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF24B31F064270004654E0 /* Demo01_FontDemoController.m */; };
+		00AF29C01F0DEF67004654E0 /* HideStatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF29BF1F0DEF67004654E0 /* HideStatusBarController.m */; };
+		00AF29C51F0DF4D7004654E0 /* UINavigationController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF29C41F0DF4D7004654E0 /* UINavigationController+StatusBar.m */; };
+		00AF29D91F0F5CD2004654E0 /* Demo01_TableViewDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF29D01F0F5CD2004654E0 /* Demo01_TableViewDemoCell.m */; };
+		00AF29DA1F0F5CD2004654E0 /* Demo01_TableVIewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF29D21F0F5CD2004654E0 /* Demo01_TableVIewDemoController.m */; };
+		00AF29DB1F0F5CD2004654E0 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF29D41F0F5CD2004654E0 /* TestCell.m */; };
+		00AF29DC1F0F5CD2004654E0 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AF29D51F0F5CD2004654E0 /* TestCell.xib */; };
+		00AF29DD1F0F5CD2004654E0 /* Demo02_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AF29D81F0F5CD2004654E0 /* Demo02_TableViewController.m */; };
 		00B83D231ED6DA1D00E09A2C /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 00B83D221ED6DA1D00E09A2C /* JSCallOC.html */; };
 		00C534421EEE6C5E00E2BB4F /* YTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C534411EEE6C5E00E2BB4F /* YTSegmentedControl.m */; };
 		00C5346B1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5346A1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m */; };
@@ -171,10 +174,6 @@
 		00AF24871F05F764004654E0 /* Demo05_GaussianBlurController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo05_GaussianBlurController.m; sourceTree = "<group>"; };
 		00AF248B1F060124004654E0 /* TableViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemoController.h; sourceTree = "<group>"; };
 		00AF248C1F060124004654E0 /* TableViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoController.m; sourceTree = "<group>"; };
-		00AF248E1F06016D004654E0 /* Demo01_TableVIewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo01_TableVIewDemoController.h; sourceTree = "<group>"; };
-		00AF248F1F06016D004654E0 /* Demo01_TableVIewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo01_TableVIewDemoController.m; sourceTree = "<group>"; };
-		00AF24911F0601B1004654E0 /* Demo01_TableViewDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo01_TableViewDemoCell.h; sourceTree = "<group>"; };
-		00AF24921F0601B1004654E0 /* Demo01_TableViewDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo01_TableViewDemoCell.m; sourceTree = "<group>"; };
 		00AF24951F060938004654E0 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		00AF24961F060938004654E0 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
 		00AF24971F060938004654E0 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
@@ -185,13 +184,23 @@
 		00AF249C1F060938004654E0 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
 		00AF249D1F060938004654E0 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
 		00AF249E1F060938004654E0 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
-		00AF24A91F0626B4004654E0 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
-		00AF24AA1F0626B4004654E0 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
-		00AF24AB1F0626B4004654E0 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
 		00AF24AF1F06423F004654E0 /* FontDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontDemoController.h; sourceTree = "<group>"; };
 		00AF24B01F06423F004654E0 /* FontDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontDemoController.m; sourceTree = "<group>"; };
 		00AF24B21F064270004654E0 /* Demo01_FontDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo01_FontDemoController.h; sourceTree = "<group>"; };
 		00AF24B31F064270004654E0 /* Demo01_FontDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo01_FontDemoController.m; sourceTree = "<group>"; };
+		00AF29BE1F0DEF67004654E0 /* HideStatusBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideStatusBarController.h; sourceTree = "<group>"; };
+		00AF29BF1F0DEF67004654E0 /* HideStatusBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideStatusBarController.m; sourceTree = "<group>"; };
+		00AF29C31F0DF4D7004654E0 /* UINavigationController+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBar.h"; sourceTree = "<group>"; };
+		00AF29C41F0DF4D7004654E0 /* UINavigationController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBar.m"; sourceTree = "<group>"; };
+		00AF29CF1F0F5CD2004654E0 /* Demo01_TableViewDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo01_TableViewDemoCell.h; sourceTree = "<group>"; };
+		00AF29D01F0F5CD2004654E0 /* Demo01_TableViewDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo01_TableViewDemoCell.m; sourceTree = "<group>"; };
+		00AF29D11F0F5CD2004654E0 /* Demo01_TableVIewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo01_TableVIewDemoController.h; sourceTree = "<group>"; };
+		00AF29D21F0F5CD2004654E0 /* Demo01_TableVIewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo01_TableVIewDemoController.m; sourceTree = "<group>"; };
+		00AF29D31F0F5CD2004654E0 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		00AF29D41F0F5CD2004654E0 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		00AF29D51F0F5CD2004654E0 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		00AF29D71F0F5CD2004654E0 /* Demo02_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo02_TableViewController.h; sourceTree = "<group>"; };
+		00AF29D81F0F5CD2004654E0 /* Demo02_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo02_TableViewController.m; sourceTree = "<group>"; };
 		00B83D221ED6DA1D00E09A2C /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
 		00B83D281EDE7DB900E09A2C /* YTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTColor.h; sourceTree = "<group>"; };
 		00C534401EEE6C5E00E2BB4F /* YTSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSegmentedControl.h; sourceTree = "<group>"; };
@@ -354,6 +363,8 @@
 				008A8F581ECC52EE0039E0AF /* UIView+YTFrame.m */,
 				00C534691EEFCD3E00E2BB4F /* UIViewController+YTViewController.h */,
 				00C5346A1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m */,
+				00AF29C31F0DF4D7004654E0 /* UINavigationController+StatusBar.h */,
+				00AF29C41F0DF4D7004654E0 /* UINavigationController+StatusBar.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -472,6 +483,36 @@
 				00AF24B31F064270004654E0 /* Demo01_FontDemoController.m */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		00AF29CE1F0F5CD2004654E0 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				00AF29CF1F0F5CD2004654E0 /* Demo01_TableViewDemoCell.h */,
+				00AF29D01F0F5CD2004654E0 /* Demo01_TableViewDemoCell.m */,
+				00AF29D11F0F5CD2004654E0 /* Demo01_TableVIewDemoController.h */,
+				00AF29D21F0F5CD2004654E0 /* Demo01_TableVIewDemoController.m */,
+				00AF29D31F0F5CD2004654E0 /* TestCell.h */,
+				00AF29D41F0F5CD2004654E0 /* TestCell.m */,
+				00AF29D51F0F5CD2004654E0 /* TestCell.xib */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		00AF29D61F0F5CD2004654E0 /* Demo02 */ = {
+			isa = PBXGroup;
+			children = (
+				00AF29D71F0F5CD2004654E0 /* Demo02_TableViewController.h */,
+				00AF29D81F0F5CD2004654E0 /* Demo02_TableViewController.m */,
+			);
+			path = Demo02;
+			sourceTree = "<group>";
+		};
+		00AF29DE1F0F7883004654E0 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FSCalendar;
 			sourceTree = "<group>";
 		};
 		00C533F91EE8061400E2BB4F /* Classes */ = {
@@ -693,13 +734,8 @@
 			children = (
 				00AF248B1F060124004654E0 /* TableViewDemoController.h */,
 				00AF248C1F060124004654E0 /* TableViewDemoController.m */,
-				00AF248E1F06016D004654E0 /* Demo01_TableVIewDemoController.h */,
-				00AF248F1F06016D004654E0 /* Demo01_TableVIewDemoController.m */,
-				00AF24A91F0626B4004654E0 /* TestCell.h */,
-				00AF24AA1F0626B4004654E0 /* TestCell.m */,
-				00AF24AB1F0626B4004654E0 /* TestCell.xib */,
-				00AF24911F0601B1004654E0 /* Demo01_TableViewDemoCell.h */,
-				00AF24921F0601B1004654E0 /* Demo01_TableViewDemoCell.m */,
+				00AF29CE1F0F5CD2004654E0 /* Demo01 */,
+				00AF29D61F0F5CD2004654E0 /* Demo02 */,
 				00AF24941F060923004654E0 /* images */,
 			);
 			path = TableView;
@@ -758,6 +794,8 @@
 				00F052561F011CD60080C610 /* NaviDemoController.m */,
 				00F052571F011CD60080C610 /* Segment_NaviController.h */,
 				00F052581F011CD60080C610 /* Segment_NaviController.m */,
+				00AF29BE1F0DEF67004654E0 /* HideStatusBarController.h */,
+				00AF29BF1F0DEF67004654E0 /* HideStatusBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -802,6 +840,7 @@
 			isa = PBXGroup;
 			children = (
 				00F052881F01F8240080C610 /* Main */,
+				00AF29DE1F0F7883004654E0 /* FSCalendar */,
 				00AF24AE1F06421C004654E0 /* Font */,
 				00F052871F01F8240080C610 /* 高斯模糊 */,
 			);
@@ -1019,7 +1058,7 @@
 				00AF24A11F060938004654E0 /* 3.jpeg in Resources */,
 				00ED8FDE1EA9FF5200CA6EBB /* Main.storyboard in Resources */,
 				00AF24A21F060938004654E0 /* 4.jpeg in Resources */,
-				00AF24AD1F0626B4004654E0 /* TestCell.xib in Resources */,
+				00AF29DC1F0F5CD2004654E0 /* TestCell.xib in Resources */,
 				00AF24A01F060938004654E0 /* 2.jpeg in Resources */,
 				00AF24A71F060938004654E0 /* 9.jpeg in Resources */,
 			);
@@ -1102,27 +1141,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F052821F011CD60080C610 /* GoToSettingsController.m in Sources */,
-				00AF24AC1F0626B4004654E0 /* TestCell.m in Sources */,
 				00AF246E1F04F040004654E0 /* Demo03_GaussianBlurController.m in Sources */,
+				00AF29D91F0F5CD2004654E0 /* Demo01_TableViewDemoCell.m in Sources */,
 				008A8F891ECC52EE0039E0AF /* TestFlowerView.m in Sources */,
 				00F052781F011CD60080C610 /* PageController02.m in Sources */,
 				00F052791F011CD60080C610 /* PageController03.m in Sources */,
 				00F0527C1F011CD60080C610 /* ModalDemoController.m in Sources */,
 				00F052801F011CD60080C610 /* Deep&LightCopyController.m in Sources */,
 				008A8F8E1ECC52EE0039E0AF /* YTCheckLargeImageView.m in Sources */,
+				00AF29DA1F0F5CD2004654E0 /* Demo01_TableVIewDemoController.m in Sources */,
 				00C5346B1EEFCD3E00E2BB4F /* UIViewController+YTViewController.m in Sources */,
+				00AF29DB1F0F5CD2004654E0 /* TestCell.m in Sources */,
 				00F0526F1F011CD60080C610 /* NSStringDemoController.m in Sources */,
 				00C534421EEE6C5E00E2BB4F /* YTSegmentedControl.m in Sources */,
 				00F0527D1F011CD60080C610 /* ModalTestController.m in Sources */,
 				00F052811F011CD60080C610 /* Student.m in Sources */,
 				00E00A421F01FA3000AA7CCE /* GaussianBlurController.m in Sources */,
 				008A8F8A1ECC52EE0039E0AF /* TestHeartView.m in Sources */,
+				00AF29C01F0DEF67004654E0 /* HideStatusBarController.m in Sources */,
 				00AF24881F05F764004654E0 /* Demo05_GaussianBlurController.m in Sources */,
 				00F0526A1F011CD60080C610 /* ICarouselDemoController.m in Sources */,
 				0030FED11EFA119600CEE97E /* BaseTableController.m in Sources */,
 				00F052721F011CD60080C610 /* ScrollViewDemoController.m in Sources */,
 				008A8F7F1ECC52EE0039E0AF /* UIImage+YTImage.m in Sources */,
-				00AF24931F0601B1004654E0 /* Demo01_TableViewDemoCell.m in Sources */,
+				00AF29DD1F0F5CD2004654E0 /* Demo02_TableViewController.m in Sources */,
 				00F052761F011CD60080C610 /* TextFieldDemoController.m in Sources */,
 				00E00A451F01FB3800AA7CCE /* Demo01_GaussianBlurController.m in Sources */,
 				00F052831F011CD60080C610 /* MyController.m in Sources */,
@@ -1136,11 +1178,11 @@
 				00AF215D1F04E8FD004654E0 /* Demo02_GaussianBlurController.m in Sources */,
 				00AF248D1F060124004654E0 /* TableViewDemoController.m in Sources */,
 				00F0527B1F011CD60080C610 /* QYDemoController.m in Sources */,
-				00AF24901F06016D004654E0 /* Demo01_TableVIewDemoController.m in Sources */,
 				00F0527E1F011CD60080C610 /* NaviDemoController.m in Sources */,
 				00F0526E1F011CD60080C610 /* MainController.m in Sources */,
 				008A8F8C1ECC52EE0039E0AF /* YTProgressView.m in Sources */,
 				00F0528F1F01F8BE0080C610 /* AppDelegate.m in Sources */,
+				00AF29C51F0DF4D7004654E0 /* UINavigationController+StatusBar.m in Sources */,
 				00F0526D1F011CD60080C610 /* JSCallOCController.m in Sources */,
 				00AF24711F050435004654E0 /* Demo04_GaussianBlurController.m in Sources */,
 				00F052671F011CD60080C610 /* CustomDatePickerDemo2Controller.m in Sources */,
@@ -1328,10 +1370,7 @@
 				);
 				INFOPLIST_FILE = YTDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/YTDemos/YTCore/OC/ETCore/View/FFmpeg/FFmpeg-iOS/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yatouTest.YTDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1361,10 +1400,7 @@
 				);
 				INFOPLIST_FILE = YTDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/YTDemos/YTCore/OC/ETCore/View/FFmpeg/FFmpeg-iOS/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yatouTest.YTDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -1,4 +1,5 @@
 PODS:
+  - FSCalendar (2.7.9)
   - FXBlurView (1.6.4)
   - iCarousel (1.8.3)
   - LBBlurredImage (0.2.2)
@@ -11,6 +12,7 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - FSCalendar (~> 2.7.9)
   - FXBlurView (~> 1.6.4)
   - iCarousel
   - LBBlurredImage (~> 0.2.2)
@@ -21,6 +23,7 @@ DEPENDENCIES:
   - YYKit
 
 SPEC CHECKSUMS:
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   LBBlurredImage: 700634c17922bc2d22343118e7deb6a3ca12db43
@@ -30,6 +33,6 @@ SPEC CHECKSUMS:
   WMPageController: e10e3ada7c3d8965fabf2716a04560a189d18f33
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 178d5ed5d4adc7fd203bd8b9c052aed3233026c0
+PODFILE CHECKSUM: 143d9bc176fe473491bbde16fbf75173de118d8f
 
 COCOAPODS: 1.3.0.beta.2

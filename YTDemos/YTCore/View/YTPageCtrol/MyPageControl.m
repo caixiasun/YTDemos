@@ -24,7 +24,7 @@
 -(void) updateDots
 
 {
-    long count = self.subviews.count;
+//    long count = self.subviews.count;
     for (int i=0; i<[self.subviews count]; i++) {
         NSLog(@"______%@",self.subviews);
         UIImageView* dot = [self.subviews objectAtIndex:i];

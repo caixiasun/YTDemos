@@ -23,6 +23,7 @@
 
 - (void)addCell {
     [self addCell:@"系统提供的Cell自适应高度" ClassName:@"Demo01_TableVIewDemoController"];
+    [self addCell:@"cell contentview" ClassName:@"Demo02_TableViewController"];
 }
 
 @end
